@@ -25,6 +25,7 @@ pipeline {
                     properties: [],
                     reportBuildPolicy: 'ALWAYS',
                     results: [[path: 'target/allure-results']]
+					report: "My Report"
             	    ])
 		
                 }
