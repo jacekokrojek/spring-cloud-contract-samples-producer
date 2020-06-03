@@ -27,8 +27,8 @@ pipeline {
 						results: [[path: 'target/allure-results']],
 						report: "My Report"
             	    ])
-					archiveArtifacts artifacts: 'target/allure-results/**/*',
-					archiveArtifacts artifacts: 'target/surefire-reports/**/*',
+					archiveArtifacts artifacts: 'target/allure-results/**/*'
+					archiveArtifacts artifacts: 'target/surefire-reports/**/*'
 		
                 }
             }
