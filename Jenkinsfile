@@ -29,7 +29,9 @@ pipeline {
             	    ])
 					archiveArtifacts artifacts: 'target/allure-results/**/*'
 					archiveArtifacts artifacts: 'target/surefire-reports/**/*'
-		
+		    sh 'pwd'
+		    sh 'ls -al' 
+
                 }
             }
         }
